@@ -1,0 +1,29 @@
+.navbar {
+
+  ul {
+    list-style: none;
+    flex-direction: unset;
+
+    li {
+      display: inline;
+      margin: 0 10px 0 0;
+    }
+  }
+  .collapse {
+    display: contents;
+    margin: 1px 0;
+  }
+
+  .card {
+    width: 100%;
+    .card-body {
+      padding: 0.3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .col-hide {
+    display: none;
+  }
+}

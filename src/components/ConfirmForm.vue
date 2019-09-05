@@ -19,7 +19,7 @@
 
                         <div class="modal-footer">
                             <slot name="footer">
-                                <button class="btn btn-danger" @click="$emit('set-delete',data.id)">
+                                <button class="btn btn-danger" @click="$emit('delete-data')">
                                     Удалить
                                 </button>
                                 <button class="btn btn-block" @click="$emit('set-cancel')">
