@@ -8,8 +8,6 @@ import './custom.scss'
 
 Vue.use(BootstrapVue)
 
-
-
 Vue.config.productionTip = false
 
 new Vue({
